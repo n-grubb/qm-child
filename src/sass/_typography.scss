@@ -1,0 +1,33 @@
+/* 
+ * Typography 
+ */
+ h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+h1,h2 {
+    text-transform: uppercase;
+}
+
+a {
+    font-weight: 700;
+
+    &:hover, &:active {
+        color: $blue;
+    }
+
+    &:visited {
+        text-decoration: none;
+        color: $black;
+    }
+}
+
+p {
+    color: $grey-text;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+}
